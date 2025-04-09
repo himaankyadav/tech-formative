@@ -1,0 +1,120 @@
+/* Basic Reset */
+body, h1, h2, p, ul, ol, li, table, th, td {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: aliceblue;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Navigation menu styling */
+
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  nav ul li {
+    margin: 0 15px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  nav ul li a:hover {
+    color: #e74c3c;
+  }
+  
+  /* Header styling */
+  header h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  
+  /* div styling */
+  div {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 800px;
+    border-radius: 5px;
+  }
+  
+  /* Custom list styling */
+  ol, ul {
+    margin-left: 20px;
+  }
+  ol li, ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Image styling with border and shadow */
+  #image img {
+    width: 100%;
+    border: 3px solid #2c3e50;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    transition: transform 0.3s, filter 0.3s;
+  }
+  
+  /* Image hover effect: slight scaling and brightness change */
+  #image img:hover {
+    transform: scale(1.05);
+    filter: brightness(105%);
+  }
+  
+  /* Table styling for Best Time to Visit */
+  #besttime table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  #besttime th, #besttime td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  #besttime th {
+    background-color: #2c3e50;
+    color: #fff;
+  }
+  
+  /* Paragraph styling */
+  p {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  /* External link hover effect */
+  a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+  }
+  
+  /* Fun Fact section styling */
+  #funfact p strong {
+    font-size: 1.2em;
+    color: #e74c3c;
+  }
